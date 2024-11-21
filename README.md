@@ -24,7 +24,7 @@ Welcome to **VisionEdge**, a modern and responsive one-page corporate website bu
 
 ## 📂 **Folder Structure**
 Here's a quick overview of the folder structure:
-VisionEdge/
+
 ├── src/
 │   ├── assets/             # Images, logos, icons, etc.
 │   │   ├── images/         # Project-specific images

@@ -559,13 +559,13 @@ video {
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-indigo-700 {
-  --tw-text-opacity: 1;
-  color: rgb(67 56 202 / var(--tw-text-opacity, 1));
+.font-bold {
+  font-weight: 700;
 }
 
 .text-red-500 {

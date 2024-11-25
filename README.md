@@ -16,7 +16,7 @@ Welcome to **VisionEdge**, a modern and responsive one-page corporate website bu
 - **HTML5**: Structuring the content.
 - **Tailwind CSS**: For styling and responsive layouts.
 - **JavaScript (ES6)**: Adding interactivity and animations.
-<!--  **PostCSS**: Processing Tailwind CSS -->
+ <!-- **PostCSS**: Processing Tailwind CSS -->
 - **Git**: For version control.
 - **Vercel**: Deployment for live preview.
 

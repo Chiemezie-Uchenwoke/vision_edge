@@ -48,3 +48,8 @@ Here's a quick overview of the folder structure:
 ├── package.json            # Project dependencies
 ├── README.md               # Project description and setup guide
 -->
+
+<!-- 
+Width: w-[92%] mx-auto
+
+ -->

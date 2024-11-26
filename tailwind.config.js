@@ -10,7 +10,10 @@ module.exports = {
         "light-blue1": "#80c7ff",
         "light-blue2": "#a7d8ff",
         "powder-blue": "#b0e0e6",
-        "Royal-blue": "#4169e1"
+        "Royal-blue": "#4169e1",
+        "Secondary-lite": "#fcede6",
+        "Secondary-orange-lite": "#ff9934",
+        "off-white": "#f6f6f6"
       },
       fontFamily: {
         "Inter": ["Inter", "sans-serif"]

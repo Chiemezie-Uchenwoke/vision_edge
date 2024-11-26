@@ -6,10 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss -i ./src/css/styles.css -o ./public/output.css"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["frontend", "tailwindcss", "responsive", "web-development"],
+  "author": "Chiemezie Uchenwoke",
   "license": "ISC",
-  "description": "",
+  "description": "A responsive business website built with Tailwind CSS.",
   "devDependencies": {
     "tailwindcss": "^3.4.15"
   }

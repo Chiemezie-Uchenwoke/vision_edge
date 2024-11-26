@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nav Bar</title>
+
+    <link rel="stylesheet" href="../../public/output.css">
+
+</head>
+
+<body>
+
+     <!-- Header -->
+     <header class="bg-off-white w-full font-Inter sticky left-0 top-0">
+        <div class="w-[92%] mx-auto flex justify-between items-center py-4">
+            <a href="./index.html" class="flex items-center justify-end gap-2">
+                <img src="../assets/images/Logo.png" alt="VisionEdge logo" class="h-8 cursor-pointer" id="logo">
+                <span class="font-Inter font-bold">VisionEdge</span>
+            </a>
+    
+            <nav class="hidden lg:flex gap-16 font-Inter">
+                <a href="" class="text-primary-blue font-semibold border-b-2 border-primary-blue">Home</a>
+
+                <a href="" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100">About</a>
+
+                <a href="" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100">Services</a>
+
+                <a href="" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100">Contact</a>
+            </nav>
+    
+            <button class="hidden lg:block bg-Secondary-orange-lite py-2 px-6 rounded-md">Get Started</button>
+    
+            <!-- Mobile -->
+            <div class="lg:hidden">
+                <button class="text-primary-blue flex items-center" id="mobile-toggler">
+                    <span class="material-symbols-outlined !text-[2rem]">
+                        menu
+                    </span>
+                </button>
+
+                <!-- Mobile dropdown -->
+                <div class="hidden absolute left-0 top-full bg-primary-blue w-full py-4 px-4 flex-col gap-8 shadow-md" id="dropdown">
+                    <nav class="flex flex-col gap-4">
+                        <a href="" class="block text-off-white">Home</a>
+                        <a href="" class="block text-off-white">About</a>
+                        <a href="" class="block text-off-white">Services</a>
+                        <a href="" class="block text-off-white">Contact</a>
+                    </nav>
+
+                    <button class="bg-Secondary-orange-lite py-1">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </header>  
+    
+    <script src="../js/test.js"></script>
+</body>
+
+</html>

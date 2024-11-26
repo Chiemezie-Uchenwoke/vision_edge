@@ -12,11 +12,14 @@ module.exports = {
         "powder-blue": "#b0e0e6",
         "Royal-blue": "#4169e1",
         "Secondary-lite": "#fcede6",
-        "Secondary-orange-lite": "#ff9934",
+        "Secondary-orange-lite": "#ffa852",
         "off-white": "#f6f6f6"
       },
       fontFamily: {
         "Inter": ["Inter", "sans-serif"]
+      }, //Using background image
+      backgroundImage: {
+        'hero-image': "url('/images/Hero-Image.jpg')",
       }
     },
   },

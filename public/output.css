@@ -799,6 +799,11 @@ video {
   color: rgb(0 123 255 / var(--tw-text-opacity, 1));
 }
 
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 768px) {
   .md\:h-10 {
     height: 2.5rem;

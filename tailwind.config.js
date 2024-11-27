@@ -13,6 +13,7 @@ module.exports = {
         "Royal-blue": "#4169e1",
         "Secondary-lite": "#fcede6",
         "Secondary-orange-lite": "#ffa852",
+        "muted-grey": "#d1d1d1",
         "off-white": "#f6f6f6"
       },
       fontFamily: {

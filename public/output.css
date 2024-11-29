@@ -566,8 +566,8 @@ video {
   position: sticky;
 }
 
-.bottom-8 {
-  bottom: 2rem;
+.bottom-\[10\%\] {
+  bottom: 10%;
 }
 
 .left-0 {
@@ -584,18 +584,6 @@ video {
 
 .top-full {
   top: 100%;
-}
-
-.bottom-\[\] {
-  bottom: ;
-}
-
-.bottom-\[10\%\] {
-  bottom: 10%;
-}
-
-.bottom-\[15\%\] {
-  bottom: 15%;
 }
 
 .z-30 {

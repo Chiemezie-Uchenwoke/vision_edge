@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
 
@@ -43,7 +43,7 @@
 
                 <a href="" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">About</a>
 
-                <a href="" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">Services</a>
+                <a href="./index.html#hero" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">Services</a>
 
                 <a href="" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">Contact</a>
             </nav>
@@ -74,14 +74,14 @@
     </header>  
     
     <!-- Hero Section -->
-     <section class="font-Inter min-h-[80vh] md:min-h-[80vh] lg:min-h-[90vh] w-full max-w-full" id="hero">
+     <section id="hero" class="font-Inter min-h-[80vh] md:min-h-[80vh] lg:min-h-[90vh] w-full max-w-full">
         <div class="w-[92%] max-w-[500px] md:w-[70%] md:max-w-[768px] lg:w-[90%] mx-auto text-off-white flex flex-col items-center justify-center gap-8 md:gap-12 text-center  min-h-[90vh] md:min-h-[80vh] lg:min-h-[90vh]">
             <h1 class="capitalize font-extrabold text-3xl md:text-4xl lg:text-6xl leading-[2.5rem] lg:leading-[4rem]">building digital solutions that drive your business</h1>
             <p class="md:text-lg lg:text-xl lg:leading-[2rem]">At VisionEdge, we specialize in creating responsive, visually stunning websites that not only great but also perform seamlessly across all devices.</p>
             <div class="flex gap-2 lg:gap-3">
                 <button class="border border-Secondary-orange-lite bg-Secondary-orange-lite text-font-text py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg">Get Started</button>
 
-                <button class="border border-off-white text-off-white py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg">About Us</button>
+                <button class="border border-off-white text-off-white hover:bg-primary-blue py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg">About Us</button>
             </div>
         </div>
      </section>
@@ -112,6 +112,11 @@
             </div>
         </div>
       </section>
+
+    <!-- Scroll to top -->
+    <button id="scroll-top" class="hidden focus:outline-none bg-primary-blue p-2 md:p-4 text-off-white rounded-md text-xl fixed right-2 md:right-4 bottom-8 shadow">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
 
     <script src="./js/main.js"></script> 
 </body>

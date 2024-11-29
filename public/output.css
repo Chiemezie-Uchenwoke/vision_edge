@@ -582,10 +582,6 @@ video {
   z-index: 40;
 }
 
-.m-16 {
-  margin: 4rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -618,10 +614,6 @@ video {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-\[15rem\] {
-  height: 15rem;
 }
 
 .h-\[17rem\] {
@@ -712,9 +704,18 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-Secondary-orange-lite {
   --tw-border-opacity: 1;
   border-color: rgb(255 168 82 / var(--tw-border-opacity, 1));
+}
+
+.border-accent-teal {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 184 217 / var(--tw-border-opacity, 1));
 }
 
 .border-off-white {
@@ -727,9 +728,14 @@ video {
   border-color: rgb(0 123 255 / var(--tw-border-opacity, 1));
 }
 
-.border-accent-teal {
+.border-muted-grey {
   --tw-border-opacity: 1;
-  border-color: rgb(0 184 217 / var(--tw-border-opacity, 1));
+  border-color: rgb(209 209 209 / var(--tw-border-opacity, 1));
+}
+
+.border-light-blue1 {
+  --tw-border-opacity: 1;
+  border-color: rgb(128 199 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-Secondary-orange-lite {
@@ -750,6 +756,16 @@ video {
 .bg-primary-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(0 123 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-light-blue1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 199 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-light-blue2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(167 216 255 / var(--tw-bg-opacity, 1));
 }
 
 .p-4 {
@@ -818,18 +834,13 @@ video {
   line-height: 2.25rem;
 }
 
+.text-\[1\.1rem\] {
+  font-size: 1.1rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-\[1\.1rem\] {
-  font-size: 1.1rem;
 }
 
 .font-bold {
@@ -840,16 +851,16 @@ video {
   font-weight: 800;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-normal {
   font-weight: 400;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .capitalize {
@@ -865,6 +876,11 @@ video {
   color: rgb(255 168 82 / var(--tw-text-opacity, 1));
 }
 
+.text-accent-teal {
+  --tw-text-opacity: 1;
+  color: rgb(0 184 217 / var(--tw-text-opacity, 1));
+}
+
 .text-font-text {
   --tw-text-opacity: 1;
   color: rgb(25 25 25 / var(--tw-text-opacity, 1));
@@ -878,15 +894,6 @@ video {
 .text-primary-blue {
   --tw-text-opacity: 1;
   color: rgb(0 123 255 / var(--tw-text-opacity, 1));
-}
-
-.text-accent-teal {
-  --tw-text-opacity: 1;
-  color: rgb(0 184 217 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .shadow-md {
@@ -905,20 +912,8 @@ video {
   transition-duration: 100ms;
 }
 
-.duration-200 {
-  transition-duration: 200ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.duration-700 {
-  transition-duration: 700ms;
-}
-
-.duration-500 {
-  transition-duration: 500ms;
 }
 
 .ease-in-out {
@@ -940,14 +935,14 @@ video {
   background-color: rgb(255 168 82 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-primary-blue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 123 255 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:bg-accent-teal:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 184 217 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-primary-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 255 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-off-white:hover {
@@ -971,10 +966,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:m-20 {
-    margin: 5rem;
-  }
-
   .md\:my-20 {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -1029,10 +1020,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:m-36 {
-    margin: 9rem;
-  }
-
   .lg\:my-36 {
     margin-top: 9rem;
     margin-bottom: 9rem;
@@ -1076,6 +1063,10 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1086,24 +1077,11 @@ video {
     line-height: 1.75rem;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-\[2\.5rem\] {
-    font-size: 2.5rem;
-  }
-
   .lg\:leading-\[2rem\] {
     line-height: 2rem;
   }
 
   .lg\:leading-\[4rem\] {
     line-height: 4rem;
-  }
-
-  .lg\:text-\[\] {
-    color: ;
   }
 }

@@ -31,7 +31,7 @@
 <body class="bg-off-white">
 
     <!-- Header -->
-    <header class="bg-off-white w-full font-Inter sticky left-0 top-0">
+    <header class="bg-off-white w-full font-Inter sticky left-0 top-0 z-40">
         <div class="w-[92%] mx-auto flex justify-between items-center py-3">
             <a href="./index.html" class="flex items-center justify-end gap-2">
                 <img src="./images/Logo.png" alt="VisionEdge logo" class="h-10 md:h-10 cursor-pointer" id="logo">
@@ -74,9 +74,15 @@
     </header>  
     
     <!-- Hero Section -->
-     <section class="font-Inter min-h-[25rem] lg:min-h-[30rem] w-full max-w-full" id="hero">
-        <div class="w-[92%] mx-auto">
-            <!-- <h1 class="text-3xl lg:text-8xl text-off-white">VisionEdge</h1> -->
+     <section class="font-Inter min-h-[90vh] md:min-h-[30rem] w-full max-w-full" id="hero">
+        <div class="w-[92%] max-w-[500px] md:w-[70%] md:max-w-[768px] lg:w-[90%] mx-auto text-off-white flex flex-col items-center justify-center gap-8 md:gap-12 lg:gap-14 text-center  min-h-[90vh] lg:min-h-[90vh]">
+            <h1 class="capitalize font-extrabold text-3xl md:text-4xl lg:text-6xl lg:leading-[4rem]">building digital solutions that drive your business</h1>
+            <p class="md:text-lg lg:text-xl lg:leading-[2rem]">At VisionEdge, we specialize in creating responsive, visually stunning websites that not only great but also perform seamlessly across all devices.</p>
+            <div class="flex gap-2 lg:gap-3">
+                <button class="border border-Secondary-orange-lite bg-Secondary-orange-lite text-font-text py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg">Get Started</button>
+
+                <button class="border border-off-white text-off-white py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg">About Us</button>
+            </div>
         </div>
      </section>
 

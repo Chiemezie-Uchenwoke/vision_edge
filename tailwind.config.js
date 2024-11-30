@@ -14,6 +14,7 @@ module.exports = {
         "Secondary-lite": "#fcede6",
         "Secondary-orange-lite": "#ffa852",
         "muted-grey": "#d1d1d1",
+        "section-background": "#ebebeb",
         "font-text": "#191919",
         "off-white": "#f6f6f6"
       },

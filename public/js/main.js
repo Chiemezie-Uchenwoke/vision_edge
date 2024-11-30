@@ -36,3 +36,31 @@ scrollToTopButton.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+// About Us - Mission and Vision
+const callMissionAndVision = () => {
+    let ourMission = document.getElementById("mission");
+    let ourVision = document.getElementById("vision");
+
+    if (ourMission.style.display === "none"){
+        ourMission.style.display = "block";
+        ourVision.style.display = "none";
+    }
+    else{
+        ourVision.style.display = "block";
+        ourMission.style.display = "none";
+    } 
+}
+
+setInterval(callMissionAndVision, 4000);
+document.getElementById("vision").style.display = "none";
+
+// Add Background image to our mission parent
+document.addEventListener("DOMContentLoaded", () => {
+    const ourMissionParent = document.getElementById("our-mission");
+    const missionImage = "./images/bg2.jpg";
+
+    ourMissionParent.style.backgroundImage = `url("${missionImage}")`;
+    ourMissionParent.style.backgroundSize = "cover";
+    ourMissionParent.style.backgroundPosition = "center";
+});

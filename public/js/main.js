@@ -43,16 +43,16 @@ const callMissionAndVision = () => {
     let ourVision = document.getElementById("vision");
 
     if (ourMission.style.display === "none"){
-        ourMission.style.display = "block";
+        ourMission.style.display = "flex";
         ourVision.style.display = "none";
     }
     else{
-        ourVision.style.display = "block";
+        ourVision.style.display = "flex";
         ourMission.style.display = "none";
     } 
 }
 
-setInterval(callMissionAndVision, 4000);
+setInterval(callMissionAndVision, 6000);
 document.getElementById("vision").style.display = "none";
 
 // Add Background image to our mission parent

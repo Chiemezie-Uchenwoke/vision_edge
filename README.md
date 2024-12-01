@@ -51,5 +51,9 @@ Here's a quick overview of the folder structure:
 
 <!-- 
 Width: w-[92%] mx-auto
+#00a0a0
+#66c2c2
+#00b8b8
+#d900b8
 
  -->

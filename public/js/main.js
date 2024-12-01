@@ -56,11 +56,11 @@ setInterval(callMissionAndVision, 4000);
 document.getElementById("vision").style.display = "none";
 
 // Add Background image to our mission parent
-document.addEventListener("DOMContentLoaded", () => {
+/* document.addEventListener("DOMContentLoaded", () => {
     const ourMissionParent = document.getElementById("our-mission");
     const missionImage = "./images/bg2.jpg";
 
     ourMissionParent.style.backgroundImage = `url("${missionImage}")`;
     ourMissionParent.style.backgroundSize = "cover";
     ourMissionParent.style.backgroundPosition = "center";
-});
+}); */

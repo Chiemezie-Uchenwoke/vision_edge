@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="bg-off-white">
+<body class="bg-off-white font-Inter">
 
     <!-- Header -->
     <header class="bg-off-white border-b border-muted-grey w-full font-Inter sticky left-0 top-0 z-40">
@@ -39,7 +39,7 @@
             </a>
     
             <nav class="hidden lg:flex gap-16 font-Inter">
-                <a href="" class="text-primary-blue font-semibold border-b-2 border-primary-blue py-1 text-lg">Home</a>
+                <a href="./index.html" class="text-primary-blue font-semibold border-b-2 border-primary-blue py-1 text-lg">Home</a>
 
                 <a href="./index.html#about" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">About</a>
 
@@ -61,7 +61,7 @@
                 <!-- Mobile dropdown -->
                 <div class="hidden absolute left-0 top-full z-30 bg-muted-grey w-full py-4 px-4 flex-col gap-8 shadow-md" id="dropdown">
                     <nav class="flex flex-col gap-8">
-                        <a href="" class="block">Home</a>
+                        <a href="./index.html" class="block">Home</a>
                         <a href="./index.html#about" class="block">About</a>
                         <a href="./index.html#services" class="block">Services</a>
                         <a href="" class="block">Contact</a>
@@ -81,7 +81,7 @@
             <div class="flex gap-2 lg:gap-3">
                 <button class="border border-Secondary-orange-lite bg-Secondary-orange-lite text-font-text py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg">Get Started</button>
 
-                <button class="border border-off-white text-off-white hover:bg-primary-blue py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg">About Us</button>
+                <button class="border border-off-white text-off-white hover:bg-primary-blue py-2 lg:py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg" id="aboutbtn">About Us</button>
             </div>
         </div>
      </section>
@@ -114,7 +114,7 @@
       </section>
 
     <!-- Scroll to top -->
-    <button id="scroll-top" class="hidden focus:outline-none bg-primary-blue p-4 text-off-white rounded-md text-xl fixed right-4 bottom-[10%] lg:bottom-8 shadow">
+    <button id="scroll-top" class="hidden focus:outline-none bg-primary-blue p-4 text-off-white rounded-md text-xl fixed right-4 bottom-[10%] lg:bottom-8 shadow z-20">
         <i class="fa-solid fa-chevron-up"></i>
     </button>
 
@@ -132,15 +132,15 @@
                 </p>
             </div>
 
-           <div class="w-full md:w-[50%] flex justify-center items-center">
-              <img src="./images/code-illustration.jpg" alt="" class="object-cover w-full h-full">
+           <div class="w-full md:w-[50%] flex justify-center items-center overflow-hidden">
+              <img src="./images/tech.jpg" alt="" class="object-cover w-full h-full hover:scale-110 transition-all duration-700 ease-in-out">
            </div>
         </div>
      </section>
      
      <!-- Our Vision and Mission -->
      <section class="font-Inter py-12 w-full changebackground" id="our-mission">
-        <div class="w-[92%] mx-auto rounded-md py-8 px-8" onload="callMissionAndVision()">
+        <div class="w-[92%] mx-auto rounded-md py-8 px-8">
             <div class="flex flex-col gap-6" id="mission">
                 <h2 class="capitalize text-center font-extrabold text-3xl md:text-4xl lg:text-[2.5rem] text-off-white">
                     Our Mission

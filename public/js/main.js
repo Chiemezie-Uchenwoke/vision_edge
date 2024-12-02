@@ -64,3 +64,9 @@ document.getElementById("vision").style.display = "none";
     ourMissionParent.style.backgroundSize = "cover";
     ourMissionParent.style.backgroundPosition = "center";
 }); */
+
+// About Us Button Click
+const aboutUsButton = document.getElementById("aboutbtn");
+aboutUsButton.addEventListener("click", () => {
+    window.location.href = "./index.html#about"
+});

@@ -17,8 +17,12 @@
         background-color: #00b8d9; /* Teal background */
     }
 
-    50% {
+    25% {
         background-color: #66c2c2; /* Darker Teal */
+    }
+
+    50%{
+        background-color: #00b8b8; /* Teal */
     }
 
     100% {

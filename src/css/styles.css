@@ -25,3 +25,36 @@
         background-color: #00b8d9; /* Return to Teal */
     }
 }
+
+/* Animation for scroll to top */
+.bounce-up{
+    animation: bounce 2.5s infinite;
+    transition: all 500ms ease-in-out;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(-0.5rem);
+    }
+
+    100%{
+        transform: translateY(0rem);
+    }
+}
+
+/* Animate icons */
+.scale-text{
+    animation: animate-icon 4s infinite;
+    transition: all 500ms ease-in-out;
+}
+
+@keyframes animate-icon{
+    0%{
+        font-size: 1rem;
+    }
+
+    100%{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}

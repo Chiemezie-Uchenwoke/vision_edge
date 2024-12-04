@@ -26,6 +26,9 @@
     <!-- Google Icon CDN -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 
 <body class="bg-off-white font-Inter">
@@ -114,7 +117,7 @@
       </section>
 
     <!-- Scroll to top -->
-    <button id="scroll-top" class="hidden focus:outline-none bg-primary-blue p-4 text-off-white rounded-md text-xl fixed right-4 bottom-[10%] lg:bottom-8 shadow z-20">
+    <button id="scroll-top" class="hidden focus:outline-none bg-primary-blue p-4 text-off-white rounded-md text-xl fixed right-4 bottom-[10%] lg:bottom-8 shadow-md z-20 bounce-up">
         <i class="fa-solid fa-chevron-up"></i>
     </button>
 
@@ -133,7 +136,7 @@
             </div>
 
            <div class="w-full md:w-[50%] flex justify-center items-center overflow-hidden">
-              <img src="./images/tech.jpg" alt="" class="object-cover w-full h-full hover:scale-110 transition-all duration-700 ease-in-out">
+              <img src="./images/tech.jpg" alt="" class="object-cover w-full h-full hover:scale-110 transition-all duration-700 ease-in-out rounded-md">
            </div>
         </div>
      </section>
@@ -160,6 +163,42 @@
             </div>            
         </div>
      </section>
+
+     <!-- Contact Us -->
+    <section class="font-Inter my-16 md:my-20 lg:my-36 w-[92%] mx-auto">
+        <h2 class="capitalize text-center font-extrabold text-3xl md:text-4xl lg:text-[2.5rem] mb-12 lg:mb-16">Contact Us</h2>
+        <!-- grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-20">
+            <div class="flex flex-col gap-8 bg-primary-blue p-4 text-off-white">
+                <div class="h-[70%] overflow-hidden">
+                    <img src="./images/bright responsive.jpg" alt="An illustration for web development" class="object-cover w-full h-full hover:scale-110 transition-all duration-700 ease-in-out rounded-md">
+                </div>
+
+                <div class="h-1/3 flex flex-col gap-4">
+                    <p class="flex gap-4 items-center">
+                        <span class="w-10 h-10 rounded-full border-2 border-off-white flex justify-center items-center"><i class="fa-regular fa-envelope scale-text"></i></span>
+                        <span>visionedge@admin.com</span>
+                    </p>
+    
+                    <p class="flex gap-4 items-center">
+                        <span class="w-10 h-10 rounded-full border-2 border-off-white flex justify-center items-center"><i class="bi bi-telephone scale-text"></i></span>
+                        <span>+234(0)706-896-9903</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="flex flex-col justify-between h-[25rem] md:h-full">
+                    <input type="text" placeholder="Enter your fullname" class="h-14 bg-section-background border-[1px] border-muted-grey rounded-md outline-none p-4">
+                    <input type="email" placeholder="Enter your email address" class="h-14 bg-section-background rounded-md outline-none p-4 border-[1px] border-muted-grey">
+                    <textarea name="message" id="message" placeholder="How can we help you?" class="h-40 md:h-32 lg:h-60 overflow-y-auto resize-none bg-section-background rounded-md outline-none p-4 border-[1px] border-muted-grey"></textarea>
+
+                    <button class="border border-off-white text-off-white bg-primary-blue py-3 px-4 md:px-8 rounded-md font-semibold lg:text-lg" id="submit-form">Send Message</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <script src="./js/main.js"></script> 
 </body>

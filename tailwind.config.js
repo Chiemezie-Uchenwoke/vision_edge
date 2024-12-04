@@ -16,6 +16,7 @@ module.exports = {
         "muted-grey": "#d1d1d1",
         "section-background": "#ebebeb",
         "font-text": "#191919",
+        "pale-blue": "#f0f8ff",
         "off-white": "#f6f6f6"
       },
       fontFamily: {

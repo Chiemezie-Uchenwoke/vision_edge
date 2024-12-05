@@ -44,14 +44,14 @@
             <nav class="hidden lg:flex gap-16 font-Inter">
                 <a href="./index.html" class="text-primary-blue font-semibold border-b-2 border-primary-blue py-1 text-lg">Home</a>
 
-                <a href="./index.html#about" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">About</a>
+                <a href="./#about" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">About</a>
 
-                <a href="./index.html#services" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">Services</a>
+                <a href="./#services" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">Services</a>
 
-                <a href="" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">Contact</a>
+                <a href="./#contact" class="font-normal hover:text-primary-blue hover:border-b-2 border-primary-blue transition-all duration-100 py-1 text-lg">Contact</a>
             </nav>
     
-            <button class="hidden lg:block bg-Secondary-orange-lite py-[0.7rem] px-6 rounded-md text-lg font-semibold hover:bg-primary-blue hover:text-off-white transition-all ease-in-out duration-300">Get Started</button>
+            <button class="hidden lg:block bg-Secondary-orange-lite py-[0.7rem] px-6 rounded-md text-lg font-semibold hover:bg-primary-blue hover:text-off-white transition-all ease-in-out duration-300" id="">Get Started</button>
     
             <!-- Mobile -->
             <div class="lg:hidden">
@@ -65,12 +65,12 @@
                 <div class="hidden absolute left-0 top-full z-30 bg-muted-grey w-full py-4 px-4 flex-col gap-8 shadow-md" id="dropdown">
                     <nav class="flex flex-col gap-8">
                         <a href="./index.html" class="block">Home</a>
-                        <a href="./index.html#about" class="block">About</a>
-                        <a href="./index.html#services" class="block">Services</a>
-                        <a href="" class="block">Contact</a>
+                        <a href="./#about" class="block">About</a>
+                        <a href="./#services" class="block">Services</a>
+                        <a href="./#contact" class="block">Contact</a>
                     </nav>
 
-                    <button class="bg-primary-blue text-off-white py-2 rounded-md">Get Started</button>
+                    <button class="bg-primary-blue text-off-white py-2 rounded-md" id="">Get Started</button>
                 </div>
             </div>
         </div>
@@ -165,24 +165,26 @@
      </section>
 
      <!-- Contact Us -->
-    <section class="font-Inter my-16 md:my-20 lg:my-36 w-[92%] mx-auto">
+    <section class="font-Inter my-16 md:my-20 lg:my-36 w-[92%] mx-auto" id="contact">
         <h2 class="capitalize text-center font-extrabold text-3xl md:text-4xl lg:text-[2.5rem] mb-12 lg:mb-16">Contact Us</h2>
         <!-- grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-20">
             <div class="flex flex-col gap-8 bg-primary-blue p-4 text-off-white">
-                <div class="h-[70%] overflow-hidden">
+                <div class="h-[55%] lg:h-[65%] overflow-hidden">
                     <img src="./images/bright responsive.jpg" alt="An illustration for web development" class="object-cover w-full h-full hover:scale-110 transition-all duration-700 ease-in-out rounded-md">
                 </div>
 
-                <div class="h-1/3 flex flex-col gap-4">
+                <div class="h-[45%] lg:h-[35%]  flex flex-col gap-4">
+                    <p class="text-powder-blue font-bold tracking-wide lg:text-2xl">Let's Build Something Great Together</p>
+
                     <p class="flex gap-4 items-center">
                         <span class="w-10 h-10 rounded-full border-2 border-off-white flex justify-center items-center"><i class="fa-regular fa-envelope scale-text"></i></span>
-                        <span>visionedge@admin.com</span>
+                        <span class="">visionedge@example.com</span>
                     </p>
     
                     <p class="flex gap-4 items-center">
                         <span class="w-10 h-10 rounded-full border-2 border-off-white flex justify-center items-center"><i class="bi bi-telephone scale-text"></i></span>
-                        <span>+234(0)706-896-9903</span>
+                        <span class="">+234(0)706-896-9903</span>
                     </p>
                 </div>
             </div>

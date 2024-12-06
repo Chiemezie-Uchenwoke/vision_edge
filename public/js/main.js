@@ -70,3 +70,21 @@ const aboutUsButton = document.getElementById("aboutbtn");
 aboutUsButton.addEventListener("click", () => {
     window.location.href = "./index.html#about"
 });
+
+// Contact us today button
+const contactUsToday = document.getElementById("goto-contact");
+contactUsToday.addEventListener("click", () => {
+    location.href = "./index.html#contact";
+});
+
+// Get Started Button 
+const getStartedButton = document.getElementById("get-started");
+getStartedButton.addEventListener("click", () => {
+    location.href = "./index.html#services";
+});
+
+// Get Started Mobile Button
+const getStartedButtonMobile = document.getElementById("mobile-get-started");
+getStartedButtonMobile.addEventListener("click", () => {
+    location.href = "./index.html#services";
+});

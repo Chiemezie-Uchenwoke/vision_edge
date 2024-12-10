@@ -668,8 +668,16 @@ video {
   height: 55%;
 }
 
+.h-\[5rem\] {
+  height: 5rem;
+}
+
 .h-full {
   height: 100%;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .min-h-\[80vh\] {
@@ -682,6 +690,10 @@ video {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-\[8rem\] {
+  width: 8rem;
 }
 
 .w-\[90\%\] {
@@ -1175,6 +1187,37 @@ video {
   transform: scale(1.03);
 }
 
+.partner-container{
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+  /* white-space: nowrap; */
+}
+
+.partner-container div{
+  flex-shrink: 0;
+}
+
+.make-scroll{
+  animation: scroll 30s linear infinite;
+}
+
+/* Animate the element to scroll */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  50%{
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1256,8 +1299,16 @@ video {
     height: 100%;
   }
 
+  .md\:h-\[7rem\] {
+    height: 7rem;
+  }
+
   .md\:min-h-\[80vh\] {
     min-height: 80vh;
+  }
+
+  .md\:w-\[15rem\] {
+    width: 15rem;
   }
 
   .md\:w-\[50\%\] {
@@ -1372,6 +1423,10 @@ video {
     height: 65%;
   }
 
+  .lg\:h-\[7rem\] {
+    height: 7rem;
+  }
+
   .lg\:min-h-\[90vh\] {
     min-height: 90vh;
   }
@@ -1394,6 +1449,11 @@ video {
 
   .lg\:gap-8 {
     gap: 2rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:py-3 {

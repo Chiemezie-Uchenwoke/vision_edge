@@ -99,7 +99,7 @@
 
 .show-shadow:hover{
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-    transform: scale(1.03);
+    transform: scale(1.04);
 }
 
 .partner-container{
@@ -109,8 +109,29 @@
     /* white-space: nowrap; */
 }
 
+/* Style Scroll */
+.partner-container::-webkit-scrollbar{
+    width: 10px;
+}
+
+.partner-container::-webkit-scrollbar-track{
+    background-color: #f6f6f6;
+}
+
+.partner-container::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    border: 2px solid #d1d1d1;
+}
+
 .partner-container div{
     flex-shrink: 0;
+    overflow: hidden;
+}
+
+.partner-container div:hover img{
+    filter: grayscale(0.7);
+    transform: scale(1.04);
+    transition: all 300ms ease-in-out;
 }
 
 .make-scroll{

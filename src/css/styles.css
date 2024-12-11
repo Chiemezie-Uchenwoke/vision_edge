@@ -152,3 +152,8 @@
         transform: translateX(0);
     }
 }
+
+/* Add gray to images in meet our team */
+.team:hover img{
+    filter: grayscale(0.3);
+}

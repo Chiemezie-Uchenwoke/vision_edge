@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Scroll to top
 const scrollToTopButton = document.getElementById("scroll-top");
 
-// Add Event Listener to the window to show or hide the scroll to top button above 100vh
+// Add Event Listener to the window to show or hide the scroll to top button within or above 100vh when the user scrolls
 window.addEventListener("scroll", () => {
     const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 

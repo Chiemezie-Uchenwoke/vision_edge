@@ -177,3 +177,16 @@
         transform: translateY(0);
     }
 }
+
+/* Footer Background */
+.bg-footer{
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.mkhover:hover{
+    color: rgba(0, 123, 255, 0.8);
+}
+
+.shift-text{
+    justify-self: flex-end;
+}

@@ -157,3 +157,23 @@
 .team:hover img{
     filter: grayscale(0.3);
 }
+
+/* Animate mail icon */
+.mail{
+    animation: mail 2s infinite;
+    transition: all 500ms ease-in-out;
+}
+
+@keyframes mail{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-1.2rem);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}

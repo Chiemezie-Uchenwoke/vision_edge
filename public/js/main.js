@@ -88,3 +88,21 @@ const getStartedButtonMobile = document.getElementById("mobile-get-started");
 getStartedButtonMobile.addEventListener("click", () => {
     location.href = "./index.html#services";
 });
+
+
+// Mail Icon
+const mailIcon = document.getElementById("mail");
+
+document.addEventListener("DOMContentLoaded", () => {
+    setInterval(() => {
+        mailIcon.classList.add("mail");
+
+        setTimeout(() => {
+            mailIcon.classList.remove("mail");
+        }, 2000); //match the duration of animation in css
+    }, 6000);
+});
+
+mailIcon.addEventListener("click", () => {
+    window.open("mailto:uchenwoke.chiemezie@gmail.com", "_blank");
+})

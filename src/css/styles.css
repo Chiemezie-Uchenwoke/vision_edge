@@ -178,13 +178,12 @@
     }
 }
 
-/* Footer Background */
-.bg-footer{
-    background-color: rgba(0, 123, 255, 0.1);
+.contact-footer{
+    background-color: rgba(0, 123, 255, 0.2);
 }
 
 .mkhover:hover{
-    color: rgba(0, 123, 255, 0.8);
+    color: rgb(213, 213, 213);
 }
 
 .shift-text{

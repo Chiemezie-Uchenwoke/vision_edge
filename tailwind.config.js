@@ -17,6 +17,8 @@ module.exports = {
         "section-background": "#ebebeb",
         "font-text": "#191919",
         "pale-blue": "#f0f8ff",
+        "foot-color-1": "#1a1a1a",
+        "foot-color-2": "#1e3a8a",
         "off-white": "#f6f6f6"
       },
       fontFamily: {

@@ -1110,11 +1110,6 @@ video {
   color: rgb(25 25 25 / var(--tw-text-opacity, 1));
 }
 
-.text-light-blue1 {
-  --tw-text-opacity: 1;
-  color: rgb(128 199 255 / var(--tw-text-opacity, 1));
-}
-
 .text-off-white {
   --tw-text-opacity: 1;
   color: rgb(246 246 246 / var(--tw-text-opacity, 1));
